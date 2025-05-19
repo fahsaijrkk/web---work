@@ -1,0 +1,623 @@
+@media screen and (min-width:426px){
+    @font-face {
+      font-family: "SoDoSans-Semibold";
+      src: url(../font/SoDoSans-SemiBold.ttf);
+    }
+    @font-face {
+      font-family: "SoDo Sans Regular";
+      src: url(../font/SoDoSans-Regular.ttf);
+    }
+    html {
+      width: 100%;
+      max-width: fit-content;
+      
+    }
+    body {
+      margin: 0;
+      background-color: #fff;
+      font-family: "SoDoSans-Semibold";
+    }
+    header {
+      background-color: #006241;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+    }
+    .container-navbar {
+      background-color: white;
+      width: 100%;
+      height: 83px;
+      position: fixed;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-flow: row nowrap;
+      width: 100%;
+      max-width: 1410px;
+      margin: 0 auto;
+    }
+    .logo a {
+      display: block;
+      width: 100px;
+      height: 83px;
+      padding-left: 15px;
+      margin: 0 30px;
+    }
+    .logo a img {
+      width: 73px;
+      height: 73px;
+    }
+    
+    .nav-center ul {
+      display: flex;
+      flex-direction: row;
+      list-style: none;
+      font-family: SoDoSans-SemiBold;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding-left: 0;
+    }
+    .nav-center ul li a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.9);
+    }
+    .nav-right ul li a {
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.9);
+    }
+    .nav-right ul {
+      display: flex;
+    }
+    
+    .nav-right {
+      margin-left: auto;
+      padding-right: 50px;
+    }
+    
+      .nav-center ul li { 
+      display: block;
+      padding: 0 10px;
+      font-size: 0.7em;
+    }
+    .nav-center ul li :hover {
+      color: #008248;
+      padding-bottom: 4px;
+      border-bottom: #008248 3px solid;
+      transition: color #008248 1s ease-in;
+    }
+    .nav-center {
+      display: flex;
+      align-items: flex-end;
+    }
+    
+    .nav-right ul li {
+      display: block;
+      padding: 10px 10px;
+    }
+    .hamburger-menu{
+        display: none;
+      }
+
+    .slide-pic {
+      max-width: 100%;
+    }
+    
+    .glass {
+      width: 100%;
+      height: 100%;
+    }
+    #find {
+      font-family: SoDoSans-Regular;
+      font-size: 13px;
+      font-weight: 300;
+    }
+    #sighin {
+      border: 2.5px black solid;
+      border-radius: 40px;
+      margin-right: 13.68px;
+    }
+    #sighin a {
+      color: black;
+    }
+    #Join {
+      border: 2.5px black solid;
+      border-radius: 40px;
+      background-color: black;
+      margin-right: 13.6px;
+    }
+    
+    #Join a {
+      color: white;
+    }
+    #pasa {
+      font-size: 12px;
+    }
+    
+    
+    main {
+      margin: 0 30px;
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    .container-main {
+        flex-flow: row nowrap;
+        width: 100%;
+        max-width: 1410px;
+        margin: 0 auto;
+      }
+    .top-message {
+      font-family: SoDoSans-Regular, sans-serif;
+      margin: 45px;
+    }
+    .main-pic {
+      display: flex;
+      gap: 30px;
+    }
+    .main-right-pic {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+    
+    .main-left-pic img {
+      width: 100%;
+      height: 100%;
+      margin-right: 30px;
+    }
+    .main-right-pic img {
+      width: 100%;
+      height: 100%;
+    }
+    .bottom-pic {
+      max-width: 1495px;
+      width: 100%;
+      height: 547px;
+      overflow: hidden;
+      margin: 30px 0;
+    }
+    
+
+    .bottom-inner-pic img {
+      width: 100%;
+      height: 100%;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    .under-main {
+      font-family: "SoDo Sans Regular";
+      width: 100%;
+      height: 366px;
+      background-color: #f7f7f7;
+      border-top: #e0e0e0 1px solid;
+      width: 100%;
+      max-width: 100%;
+    }
+    .under-main-content {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 36px;
+      margin: 30px;
+      flex-flow: row nowrap;
+      width: 100%;
+      max-width: 1410px;
+      margin: 0 auto;
+    }
+    
+    .under-main-content ul {
+        padding: 0px;
+    }
+    .under-main-content div {
+      max-width: fit-content;
+      width: 100%;
+    }
+    .under-main li {
+      list-style: none;
+      line-height: 35px;
+    }
+    .under-main li a {
+      text-decoration: none;
+    }
+    .lang ul {
+      display: flex;
+      flex-direction: row;
+      padding-right: 10px;
+      gap: 15px;
+    }
+    .other ul li a {
+      color: rgba(0, 0, 0, 0.9);
+      font-size: 14px;
+    }
+    .COFFEETEAATHOME ul li a {
+      color: rgba(0, 0, 0, 0.9);
+      font-size: 14px;
+    }
+    .about-us ul li a {
+      color: rgba(0, 0, 0, 0.9);
+      font-size: 14px;
+    }
+    .contact ul li {
+      list-style: none;
+    }
+    .contact ul {
+      display: flex;
+      flex-direction: row;
+    }
+    .contact {
+      display: flex;
+      padding-top: 10px;
+      background-color: #f7f7f7;
+      border-top: 1px solid rgba(0, 0, 0, 0.05);
+      padding: 0 15px 0 15px;
+      color: #f1f1f1;
+      margin: 0 auto;
+    }
+    .social{
+      display: flex;
+      width: 1410px;
+      justify-content: flex-end;
+    }
+    footer ul {
+      display: flex;
+      flex-direction: row;
+      padding: 0 15px 0 15px;
+      margin-bottom: 10px;
+    }
+    footer ul li {
+      list-style: none;
+    }
+    
+    .contact img {
+      width: 36px;
+      height: 36px;
+      padding-left: 4px;
+    }
+    .contact-container{
+      display: flex;
+      transform: translateX(-12%);
+    }
+    .app img{
+      width: 110px;
+      height: 36px;
+    }
+    .app{
+      margin-left: 10px;
+      display: flex;
+    }
+    footer{
+      background-color: #5b5b5b;
+      padding: 10px 0 15px 0;
+      max-width: 100%;
+      height: 60px;
+      width: 100%;
+    }
+    .huge-footer{
+      width: 100%;
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      max-width: 1410px;
+      justify-content: space-between;
+    }
+    .footer-left ul li {
+      font-size: 10.71px;
+      display: block;
+      max-width: fit-content;
+    
+    }
+    footer ul li a{
+      text-decoration: none;
+      margin-right: 4.284px;
+      color: rgb(255, 255, 255,0.5);
+    }
+    .footer-left {
+      padding-bottom: 5px;
+      float: left;
+      
+    }
+    .footer-left ul{
+      margin-bottom: 10px;
+    }
+    .footer-right ul li{
+      font-size: 10.71px;
+      color:rgba(255, 255, 255, 0.5);
+    }
+    .footer-right{
+      float: right ;
+      z-index: 3;
+      padding-bottom: 5px;
+    }
+    .footer-right ul {
+      display: flex;
+      align-items: flex-end;
+    }
+    
+  }
+  @media screen and (max-width:425px) {
+      @font-face {
+          font-family: "SoDoSans-Semibold";
+          src: url(../font/SoDoSans-SemiBold.ttf);
+        }
+        @font-face {
+          font-family: "SoDo Sans Regular";
+          src: url(../font/SoDoSans-Regular.ttf);
+        }
+
+
+      html {
+        width: 100%;
+        max-width: fit-content;
+      }
+      .container-navbar{
+          background-color: white;
+          width: 100% ;
+          max-width: 425px ;
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 100;
+          overflow: hidden;
+      }
+      .navbar{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-flow: row nowrap;
+          width: 100% ;
+          max-width: 425px;
+          margin: 0 auto;
+          padding-left: 15px;
+          padding-right: 15px; 
+   
+      }
+      .hamburger-menu{
+        display: block;
+        z-index:100;
+        margin-right: 80px;
+        cursor: pointer;
+      }
+  
+      .bar{
+        width: 25px;
+        height: 3px;
+        background-color: rgb(0, 0, 0);
+        margin: 5px;
+      }
+      
+      .logo a{
+          display: block;
+          max-width: 100%;
+          height: 100%;
+          max-height: 70px;
+          padding: 6px 0;
+      }
+      .logo a img{
+          width: 58px;
+          height: 58px;
+          
+      }
+      .big-box{
+          width: 100% ;
+          max-width: 425px;
+  
+      }
+      .nav-center {
+          display: none;
+      }
+      .nav-right{
+          display: none;
+      }
+      .slide-pic {
+          width: 100%;
+          height: auto;
+          padding-top: 20px;
+        }
+      img{
+          max-width: 100%;
+          height: auto;
+      }
+      .glass {
+          width: 425;
+          height: 552.5;
+          margin-top: 50px;
+        } 
+        .main-pic {
+          display: flex;
+          flex-direction: column; /* stack elements vertically */
+          gap: 30px;
+        }
+        
+        .main-right-pic {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 30px;
+        }
+        
+        .main-left-pic img {
+          width: 100%;
+          height: 100%;
+          margin-right: 30px; /* You can remove this since it's now vertical */
+        }
+        .top-message{
+          font-family:SoDoSans-Semibold ;
+        }
+        .main-right-pic img {
+          width: 100%;
+          height: 100%;
+        }
+        .bottom-pic {
+          max-width: 395px;
+          width: 100%;
+          height: 157px;
+          overflow: hidden;
+          margin: 30px 0;
+        }
+       
+        .bottom-inner-pic img {
+          width: 100%;
+          height: 100%;
+        }
+        .under-main {
+          font-family: "SoDo Sans Regular";
+          width: 425px;
+          height: 631px;
+          background-color: #f7f7f7;
+          border-top: #e0e0e0 1px solid;
+          max-width: 100%;
+        }
+        .under-main-content {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          max-width: 425px;
+          padding-left: 10px;
+          
+        }
+        .under-main-content ul {
+          padding: 0px;
+      }
+      .under-main-content ul li{
+          padding: 6px 0;
+      }
+      .under-main-content div {
+      
+        width: 100%;
+      }
+      .under-main li {
+        list-style: none;
+        line-height: 21px;
+      }
+      .under-main li a {
+        text-decoration: none;
+  
+      }
+      .lang {
+          padding-top: 10px;
+          /* background-color: #008248; */
+          display: block;
+          flex-direction: row;
+          margin-left: 100px;
+          padding-bottom: 15px;
+          margin-bottom: 15px;
+          color: #000000;
+        }
+        .lang ul {
+          display: flex;
+          flex-direction: row;
+          width: 424px;
+          clear: both;
+          /* justify-content: center; */
+          margin: 0;
+          padding-right: 20px;
+        }
+        .lang ul li{
+          display: inline-block;
+          margin: 0 8px;
+          padding: 5px 0;
+  
+        }
+        .other ul li a {
+          color: rgba(0, 0, 0, 0.9);
+          font-size: 14px;
+        }
+        .COFFEETEAATHOME ul li a {
+          color: rgba(0, 0, 0, 0.9);
+          font-size: 14px;
+        }
+        .about-us ul li a {
+          color: rgba(0, 0, 0, 0.9);
+          font-size: 14px;
+        }
+        .contact ul li {
+          list-style: none;
+        }
+        .contact ul {
+          display: flex;
+          flex-direction: row;
+        }
+        .contact-container {
+          display: flex;
+          flex-direction: column; 
+          align-items: center;     
+          gap: 10px; 
+          padding-top :10px ;             
+        }
+        
+        .social {
+          display: flex;
+          justify-content: center;
+          padding-top: 75px; /* increase social height */
+          
+        }
+        
+        .social img {
+          height: 40px;
+          width: 40px;
+          padding-left :4px;
+          padding-right :4px;
+        }
+        
+        .app {
+          margin-left: 0; 
+        }
+        
+        .app img {
+          width: 110px;
+          height: 36px;
+        }
+        footer ul {
+          display: flex;
+          flex-direction: row;
+          padding: 0 15px 0 15px;
+          margin-bottom: 10px;
+        }
+        footer ul li {
+          list-style: none;
+        }
+        .footer-right {
+          color: #dad7d7;
+          font-size: 15px;
+        }
+      
+        .huge-footer {
+          margin-top: 15px;
+          background-color: #5b5b5b;
+          color: #dad7d7;
+          display: flex;
+          flex-direction: column-reverse;
+          font-family: "SoDo Sans Regular";
+        }
+      
+        .footer-left ul {
+          display: flex;
+          flex-direction: row; 
+          justify-content: flex-start;
+          align-items: center;
+          gap: 5px;
+          padding-bottom: 40px;
+          margin: 0;
+        }
+        footer ul li a{
+          text-decoration: none;
+          margin-right: 4.284px;
+          color: rgb(255, 255, 255,0.5);
+        }
+        .footer-left li {
+          display: flex;
+          flex-direction: row; 
+          justify-content: center; 
+          flex-wrap : nowrap;
+          font-size: 10px;
+          color:white
+        }
+        .footer-right li{
+          font-size: 10px;
+          align-items: center;
+        }
+  }
